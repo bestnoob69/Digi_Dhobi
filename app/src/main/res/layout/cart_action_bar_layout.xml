@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digi Dhobi"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        />
+
+    <!--    &lt;!&ndash; Cart Item Image &ndash;&gt;-->
+    <ImageView
+        android:id="@+id/actionbar_cart_imageview"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/qr_code"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
